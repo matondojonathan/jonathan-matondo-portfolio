@@ -39,3 +39,24 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.dump
+
+# Private keys and certificates
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Local uploads and temporary files
+/uploads/
+/tmp/
+/temp/
+
+# Allow safe environment template
+!.env.example
